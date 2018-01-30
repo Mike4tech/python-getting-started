@@ -1,0 +1,5 @@
+{
+  "GEENY_APPLICATION_ID": "<your-application-id>",
+  "GEENY_APPLICATION_BROKER_SUBSCRIBER_URL": "https://developers.geeny.io/ab/subscribe",
+  "GEENY_APPLICATION_AUTH_TOKEN": "<application-broker-authorization-token>"
+}
