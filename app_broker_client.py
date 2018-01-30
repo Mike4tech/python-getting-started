@@ -37,9 +37,7 @@ class AppBrokerClient:
 
     def get_messages(self, iterator):
         uri = HOST + "/" + APP_ID + "/messageType/" + MESSAGE_TYPE_ID + "/iterator/" + iterator
-        print uri
         response = requests.get(uri, headers = self.headers())
-        print response
         return response.json()
 
   # def get_messages(iterator)

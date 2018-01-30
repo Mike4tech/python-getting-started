@@ -61,7 +61,8 @@ Authorization](https://docs.geeny.io/platform-overview/authentication/).
 ## Run the code:
 
 ```
-# TBD
+pip3 install -r requirements.txt
+python3 app.py
 ```
 
 This example does the following:

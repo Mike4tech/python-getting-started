@@ -46,4 +46,4 @@ app.run(host='0.0.0.0', port=3000)
 # shards = client.get_shards()
 # iterator = client.get_iterator("0")
 # messages = client.get_messages(iterator['shardIterator'])
-# print messages
+# print(messages)
